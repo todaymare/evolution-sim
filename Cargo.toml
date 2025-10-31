@@ -1,0 +1,28 @@
+[package]
+name = "evolutionary-biology"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sti = { git = "https://github.com/leddoo/sti" }
+wgpu = "*"
+bytemuck = "*"
+pollster = "*"
+winit = "*"
+glam = { version = "*", features = ["bytemuck", "rand", "serde"] }
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+rand = "*"
+
+tracing = "*"
+tracing-subscriber = "*"
+nalgebra = "*"
+rayon = "*"
+libnoise = { version = "1.2.0", features = ["image"] }
+
+rapier2d = "*"
+
+
+[profile.release]
+debug = true
