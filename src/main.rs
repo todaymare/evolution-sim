@@ -236,7 +236,7 @@ fn main() {
 
     event_loop.set_control_flow(winit::event_loop::ControlFlow::Poll);
 
-    let mut app = NewApp {
+    let mut app = App {
         app: None,
     };
 

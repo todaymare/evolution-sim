@@ -140,7 +140,7 @@ impl Simulation {
                 ],
                 active_cells: vec![],
 
-                brains: NeuralNetwork::new(&[18+8, 64, 64, 64, 2+8]),
+                brains: NeuralNetwork::new(&[18+8, 64, 64, 64, 2+8+1]),
                 memory: [0.0; 8],
 
                 stats: EntityStats::new(),
